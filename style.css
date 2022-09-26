@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: raleway;
+}
+
+.main-header{
+    background-image: url(images/band-cover.jpg);
+    height: 180px;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply;
+}
+
+.nav li{
+    display: inline-block;
+}
+.nav li a{
+    text-decoration: none;
+    padding: .2em 1em;
+    color: white;
+    font-weight: lighter;
+    font-size: 1.1em;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 20px;
+}
+
+.main-nav{
+    text-align: center;
+}
+
+.main-nav li{
+    margin-top: .2em;
+    padding: .2em 2em;
+}
+
+.band-name{
+    font-family: metal mania;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+.band-name-large{
+    font-size: 5em;
+    margin-top: .3em;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em .5em;
+}
+
+.content-section{
+    padding: 2em 2em;
+}
+
+.section-title{
+    text-align: center;
+    font-family: metal mania;
+    font-weight: normal;
+    font-size: 3em;
+    margin-top: .1em;
+    margin-bottom: .8em;
+}
+
+.band-image{
+    height: 200px;
+    width: 200px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 1em; 
+    margin-bottom: 1em;
+}
+
+.main-footer{
+    background-color: #E24F4F;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img{
+    height: 30px;
+    width: 30px;
+}
+
+.footer-nav a:hover{
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 50%;
+    padding-top: 1.7em;
+    padding-bottom: .7em;
+}
+
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-top: 1em;
+}
+
+.tour-row:last-child{
+    border-bottom: none;
+}
+
+.tour-item{
+    display: inline-block;
+    padding-right: 1em;
+}
+
+.tour-date{
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city{
+    width: 24%;
+}
+
+.tour-arena{
+    width: 42%;
+}
+
+.tour-btn{
+    max-width: 19%;
+}
+
+.btn-primary{
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    background-color: #59ccf2;
+    padding: .5em;
+    border: none;
+    border-radius: .5em;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #1D67B0;
+}
+
+.shop-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+}
+
+.shop-item-image{
+    height: 250px;
+}
+
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price{
+    flex-grow: 1;
+}
+
+.cart-row{
+    display: flex;
+}
+
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    margin-top: 10px;
+    padding-bottom: 10px; 
+    padding-left: 5px;
+}
+
+.cart-header{
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-left: 10px;
+}
+
+.cart-item{
+    width: 40%;
+}
+
+.cart-price{
+    width: 20%;
+}
+
+.cart-quantity{
+    width: 40%;
+}
+
+.cart-item-image{
+    width: 75px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cart-item-title{
+    margin-left: 8px;
+}
+
+.cart-quantity-input{
+    width: 50px;
+    height: 30px;
+    border: 1px solid #59ccf2;
+    border-radius: 5px;
+    background-color: #eee;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0;
+}
+
+.btn-danger{
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    background-color: #EE5656;
+    padding: .5em;
+    border: none;
+    border-radius: .5em;
+    font-weight: bold;
+    height: 30px;
+    width: 80px;
+    margin-left: 3em;
+}
+
+.btn-danger:hover{
+    background-color: #BB1E1E;
+}
+
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column{
+    border: none;
+}
+
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+.cart-total-price{
+    font-size: 1.2em;
+}
+
+.btn-purchase{
+    display: block;
+    margin: 2em auto 1em auto;
+    font-size: 2em;
+}
+
+.home-btn{
+    display: block;
+    margin: 1.5em auto;
+    padding: .5em;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+.home-btn:hover{
+    background-color: #666;
+}
+
+label{
+    display: none;
+}
+
+#toggle{
+    display: none;
+}
+
+@media (max-width: 700px){
+    .main-header{
+        height: 120px;
+        position: relative;
+    }
+    
+    .band-name-large {
+        position: absolute;
+        font-size: 3em;
+        left: 1.1em;
+        top: .5em;
+    }
+    
+    .main-nav ul{
+        position: fixed;
+        background-color: #000000F0;
+        z-index: 2;
+        padding-top: 12em;
+        overflow: hidden;
+        height: 200vh;
+        width: 100%;
+        transition: 1s;
+        right: 0%;
+    }
+    
+    .main-nav li{
+        display: block;
+        margin-bottom: 5em;
+    }
+    
+    .main-nav ul a{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    label{
+        position: absolute;
+        display: block;
+        top: .5em;
+        right: .8em;
+        color: white;
+        transform: scale(1.5);
+        z-index: 3;
+    }
+    
+    #toggle:checked + .main-nav ul{
+        right: 100%;
+    }
+    
+    .section-title{
+        font-size: 2.3em;
+    }
+    
+    .band-image {
+        height: 150px;
+        width: 150px;
+    }
+    
+    footer .band-name{
+        display: none;
+    }
+    
+    .footer-nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .tour-item{
+        font-size: .75em;
+    }
+    
+    .tour-row{
+        display: flex;
+        align-items: center;
+    }
+    
+    .tour-btn{
+        font-size: .7em;
+        padding: .7em;
+    }
+    
+    .shop-item-title{
+        font-size: 1.2em;
+    }
+    
+    .cart-item-image{
+        width: 50px;
+        height: auto;
+    }
+    
+    .cart-item{
+        flex-direction: column;
+        width: 30%
+    }
+    
+    .cart-item-title{
+        font-size: .8em;
+        margin: 5px 0 0 0;
+    }
+    
+    .cart-header{
+        font-size: 1.1em;
+        text-align: center;
+        padding-left: 5px;
+    }
+    
+    .btn-danger{
+        margin-left: .5em;
+    }
+    
+    .cart-quantity{
+        margin-right: 0;
+    }
+}

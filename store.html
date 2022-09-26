@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <title>1D/Store</title>
+</head>
+
+<body>
+    
+    <header class="main-header">
+        <label class="menu-icon" for="toggle">&#9776</label>
+        <input type="checkbox" id="toggle"/>
+        
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <h1 class="band-name band-name-large">ONE DIRECTION</h1>
+    </header>
+    
+    <section class="container content-section">
+        <h2 class="section-title">
+            Music
+        </h2>
+        <div class="shop-items">
+            
+            <div class="shop-item">
+                <span class="shop-item-title">Album 1
+                </span>
+                <img class="shop-item-image" src="images/band-music-1.jpg" />
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99
+                    </span>
+                    <button class="btn-primary" type="button">Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 2
+                </span>
+                <img class="shop-item-image" src="images/band-music-2.jpg" />
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$16.99
+                    </span>
+                    <button class="btn-primary" type="button">Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 3
+                </span>
+                <img class="shop-item-image" src="images/band-music-3.jpg" />
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$10.99
+                    </span>
+                    <button class="btn-primary" type="button">Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 4
+                </span>
+                <img class="shop-item-image" src="images/band-music-4.jpg" />
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99
+                    </span>
+                    <button class="btn-primary" type="button">Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container content-section">
+        <h2 class="section-title">
+            Merch
+        </h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">T-Shirt
+                </span>
+                <img class="shop-item-image" src="images/band-t-shirt.jpg" />
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$49.99
+                    </span>
+                    <button class="btn-primary" type="button">Add to Cart
+                    </button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Coffee Cup
+                </span>
+                <img class="shop-item-image" src="images/band-mug.jpg" />
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99
+                    </span>
+                    <button class="btn-primary" type="button">Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container content-section">
+        <h2 class="section-title">
+            Cart
+        </h2>
+    <div class="cart-items">
+        <div class="cart-row">
+            <span class="cart-item cart-column cart-header">
+                ITEM
+            </span>
+            <span class="cart-price cart-column cart-header">
+                PRICE
+            </span>
+            <span class="cart-quantity cart-column cart-header">
+                QUANTITY
+            </span>
+        </div>
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+                <img class="cart-item-image" src="images/band-t-shirt.jpg"/>
+                <span class="cart-item-title">
+                    T-shirt
+                </span>
+            </div>
+            <div class="cart-price cart-column">
+                $99.98
+            </div>
+            <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" name="quantity" value="2" />
+                <button class="btn-danger" type="button">REMOVE
+                </button>
+            </div>
+        </div>
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+                <img class="cart-item-image" src="images/band-music-2.jpg" />
+                <span class="cart-item-title">
+                    Album 2
+                </span>
+            </div>
+            <div class="cart-price cart-column">
+                $16.99
+            </div>
+            <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" name="quantity" value="1" />
+                <button class="btn-danger" type="button">REMOVE
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="cart-total">
+        <span class="cart-total-title">
+            Total
+        </span>
+        <span class="cart-total-price">
+            $116.97
+        </span>
+    </div>
+    <button class="btn-primary btn-purchase" type="submit">
+        PURCHASE
+    </button>
+    </section>
+    <footer class="main-footer">
+        <div class="container footer-container">
+            
+            <h3 class="band-name">ONE DIRECTION</h3>
+            
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                    <img src="images/YouTube Logo.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.spotify.com" target="_blank">
+                        <img src="images/Spotify Logo.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="images/Facebook Logo.png" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
